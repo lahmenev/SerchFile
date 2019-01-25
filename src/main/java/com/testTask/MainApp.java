@@ -16,6 +16,7 @@ public class MainApp extends Application {
         primaryStage.setTitle("Search File");
         primaryStage.setScene(new Scene(root, 900, 500));
         primaryStage.show();
+        
         primaryStage.setResizable(false);
     }
 
