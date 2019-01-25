@@ -58,6 +58,7 @@ public class MainController {
 
     @FXML
     void initialize() {
+        formatInput.setText(".log");
 
         findButton.setOnAction(event -> {
             findFile();
